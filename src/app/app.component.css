@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  width:65%;
+  flex-direction: row;
+  background-color: powderblue;
+  flex-wrap: wrap;
+  align-content: space-around;
+
+}
+
+.flex-container > div {
+  width: 400px;
+  margin: 10px;
+  background-color: whitesmoke;
+  text-align: center;
+  font-size: 20px;
+}
